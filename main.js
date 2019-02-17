@@ -1,14 +1,14 @@
 $(document).ready(function() {
   var $cardGreen = $(".item.green");
-  var $cardPink = $(".item.pink");
+  var $cardOrange = $(".item.Orange");
   var $cardBlue = $(".item.blue");
  
 
   // $cardGreen.hover(function() {
   //   $cardGreen.toggleClass("animated flash");
   // });
-  // $cardPink.hover(function() {
-  //   $cardPink.toggleClass("animated flash");
+  // $cardOrange.hover(function() {
+  //   $cardOrange.toggleClass("animated flash");
   // });
   // $cardBlue.hover(function() {
   //   $cardBlue.toggleClass("animated flash");
@@ -18,10 +18,10 @@ $(document).ready(function() {
   // });
  
 });
-const htmlOrange = document.querySelector("#myTemplatePetApp"); 
+const htmlPink = document.querySelector("#myTemplatePetApp"); 
 
-tippy(".tooltipOrange", {
-  content: htmlOrange,
+tippy(".tooltipPink", {
+  content: htmlPink,
   delay: 100,
   arrow: true,
   arrowType: "round",
@@ -51,10 +51,10 @@ tippy(".tooltipBlue", {
   interactive: true,
   theme: "google"
 });
-const htmlPink = document.querySelector("#myTemplateTicTacToe"); 
+const htmlOrange = document.querySelector("#myTemplateTicTacToe"); 
 
-tippy(".tooltipPink", {
-  content: htmlPink,
+tippy(".tooltipOrange", {
+  content: htmlOrange,
   delay: 100,
   arrow: true,
   arrowType: "round",
