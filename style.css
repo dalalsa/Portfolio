@@ -4,13 +4,8 @@
 body {
   margin: 0;
   background: #2c457e;
-    font-family: helvetica;
-
-  
+  font-family: helvetica;
 }
-
-
-
 
 /* Pseudo-selector */
 section:nth-of-type(odd) {
@@ -20,9 +15,8 @@ h3 {
   text-decoration: underline;
   text-decoration-color: dodgerblue;
 }
-h1{
+h1 {
   color: aliceblue;
-  
 }
 h2 {
   color: #6989d6;
@@ -32,7 +26,7 @@ h2 {
   flex-wrap: wrap;
   /* background: #b0c1e7; */
 }
-.center{
+.center {
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -61,11 +55,7 @@ h2 {
   .sm-col-12 {
     width: 100%;
   }
- 
 }
-
-
-
 
 span {
   color: #25314d;
@@ -141,7 +131,6 @@ span {
   }
 }
 
-
 .item {
   padding: 100px;
   color: white;
@@ -150,7 +139,6 @@ span {
   /* display: inline-block; */
   /* margin-right: 10px; */
   /* margin-top: 10px; */
- 
 }
 
 .item p {
@@ -172,9 +160,9 @@ span {
 .green {
   background-color: #2abb9b;
 }
-
-
-
+.red {
+  background-color: red;
+}
 
 /* If `animateFill: true` (default) */
 .tippy-tooltip.honeybee-theme .tippy-backdrop {
